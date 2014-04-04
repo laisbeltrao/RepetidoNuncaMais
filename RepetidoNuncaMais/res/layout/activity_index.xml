@@ -9,8 +9,31 @@
     tools:context=".Index" >
 
     <TextView
+        android:id="@+id/textViewIntroducao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_weight="1"
+        android:text="You tá the brinqueichon uite me, cara? You ar a véri mutchi caspa man. Do you nou the number one xampu contra caspa in the uordi. Luqui aqui Capitachion. Rimouve uarandredi porcenti ofi the caspa ande idrateiti ior hair. You puti the xampu in the midiu, from the fronte, from the berrind ande the caspa donti cai io xolder. Pliss, luqui tu me. Not joelzetes. Finixi the cocereichon in the red. Bati, pera ai, you no precisa, you ar a carecaition, you donti révi caspa." />
+
+    <Button
+        android:id="@+id/buttonEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewIntroducao"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="ENTRAR" />
+
+    <TextView
+        android:id="@+id/textViewAviso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewIntroducao"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:textColor="#FF0000"
+        android:text="Para se cadastrar é preciso entrar em contato conosco através do email contato@repetidonuncamais.com.br" />
 
 </RelativeLayout>
